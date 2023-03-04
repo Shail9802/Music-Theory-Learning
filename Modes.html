@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet ">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .nav-pills {
+            --bs-nav-pills-link-active-bg: #dc3545;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="scrollspy">
+    <!-- Nav Bar -->
+    <nav id="scrollspy" class="navbar navbar-expand-lg navbar-light  fixed-top">
+        <div class="container-fluid text-center justify-content-center">
+            <a class="navbar-brand text-dark" href="#">Learn Music Theory</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse sm-flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="MajorScale.html">Major Scale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="MinorScale.html">Minor Scale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#Modes">Modes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="Piano.html">Piano On The Go !</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="Modes" class="container-fluid py-5 vh-100 bg-warning">
+        <div class="row">
+            <div class="col-md">
+                <div class="p-5 m-1 bg-warning text-dark rounded text-center">
+                    <p class="display-1">All About Modes</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="accordion" id="modesAccordian">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="ionianModeHeading">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ionianMode" aria-expanded="true" aria-controls="ionianMode">
+                                        Ionian mode (also known as the major scale)
+                                    </button>
+                                  </h2>
+                                  <div id="ionianMode" class="accordion-collapse collapse" aria-labelledby="ionianMode" data-bs-parent="#modesAccordian">
+                                    <div class="accordion-body">
+                                      The <strong>Ionian mode</strong> is the first and most familiar mode of the major scale. It is also known as the major scale, and has a happy, bright, and cheerful sound. 
+                                        It is characterized by its pattern of whole and half steps: W-W-H-W-W-W-H (W = whole step, H = half step). It is widely used in Western classical music, pop, rock, and many other genres.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="dorianModeHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dorianMode" aria-expanded="false" aria-controls="dorianMode">
+                                        Dorian mode
+                                    </button>
+                                  </h2>
+                                  <div id="dorianMode" class="accordion-collapse collapse" aria-labelledby="dorianMode" data-bs-parent="#modesAccordian">
+                                    <div class="accordion-body">
+                                      The <strong>Dorian mode </strong>is the second mode of the major scale and is characterized by its distinct minor sound. It has a melancholic and introspective quality, often used in jazz and rock music. Its unique pattern of whole and half steps is: W-H-W-W-W-H-W (W = whole step, H = half step). The Dorian mode is often used to create a sense of tension and release in music, and is frequently employed in modal jazz and blues progressions.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="phrygianModeHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#phrygianMode" aria-expanded="false" aria-controls="phrygianMode">
+                                        Phrygian mode
+                                    </button>
+                                  </h2>
+                                  <div id="phrygianMode" class="accordion-collapse collapse" aria-labelledby="phrygianMode" data-bs-parent="#modesAccordian">
+                                    <div class="accordion-body">
+                                       The <strong>Phrygian mode </strong> is the third mode of the major scale and has a distinctive Spanish or Middle Eastern sound. It is characterized by its minor tonality and a flattened second scale degree, which gives it a unique and exotic character. Its pattern of whole and half steps is: H-W-W-W-H-W-W (W = whole step, H = half step). The Phrygian mode is often used in flamenco, progressive rock, and metal music to create a dark and mysterious atmosphere.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="lydianModeHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lydianMode" aria-expanded="false" aria-controls="lydianMode">
+                                        Lydian mode
+                                    </button>
+                                  </h2>
+                                  <div id="lydianMode" class="accordion-collapse collapse" aria-labelledby="lydianMode" data-bs-parent="#modesAccordian">
+                                    <div class="accordion-body">
+                                      The <strong>Lydian mode</strong> is the fourth mode of the major scale and has a bright and uplifting sound. It is characterized by its raised fourth scale degree, which creates a sense of tension and dissonance that is often resolved by returning to the tonic note. Its pattern of whole and half steps is: W-W-W-H-W-W-H (W = whole step, H = half step). The Lydian mode is often used in jazz and rock music to create a dreamy and ethereal atmosphere.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="mixolydianModeHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mixolydianMode" aria-expanded="false" aria-controls="mixolydianMode">
+                                        Mixolydian mode
+                                    </button>
+                                  </h2>
+                                  <div id="mixolydianMode" class="accordion-collapse collapse" aria-labelledby="mixolydianMode" data-bs-parent="#modesAccordian">
+                                    <div class="accordion-body">
+                                      The <strong>Mixolydian mode</strong> is the fifth mode of the major scale and has a bluesy and rock 'n' roll sound. It is characterized by its flattened seventh scale degree, which gives it a dominant or "resolving" quality. Its pattern of whole and half steps is: W-W-H-W-W-H-W (W = whole step, H = half step). The Mixolydian mode is often used in blues, rock, and country music to create a feeling of tension and release.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="aeolianModeHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aeolianMode" aria-expanded="false" aria-controls="aeolianMode">
+                                        Aeolian mode (also known as the natural minor scale)
+                                    </button>
+                                  </h2>
+                                  <div id="aeolianMode" class="accordion-collapse collapse" aria-labelledby="aeolianMode" data-bs-parent="#modesAccordian">
+                                    <div class="accordion-body">
+                                      The<strong>Aeolian mode</strong> is the sixth mode of the major scale and is also known as the natural minor scale. It has a melancholic and somber quality, often used in classical and metal music. Its pattern of whole and half steps is: W-H-W-W-H-W-W (W = whole step, H = half step). The Aeolian mode is often used to create a sense of sadness or emotional depth in music.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="locrianModeHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locrianMode" aria-expanded="false" aria-controls="locrianMode">
+                                        Locrian mode
+                                    </button>
+                                  </h2>
+                                  <div id="locrianMode" class="accordion-collapse collapse" aria-labelledby="locrianMode" data-bs-parent="#modesAccordian">
+                                    <div class="accordion-body">
+                                      The <strong>Locrian mode</strong> is the seventh and last mode of the major scale, and has a very unstable and unresolved sound. It is characterized by its flattened second and fifth scale degrees, which give it a dissonant and diminished quality. Its pattern of whole and half steps is: H-W-W-H-W-W-W (W = whole step, H = half step). The Locrian mode is rarely used in traditional Western music due to its unstable tonality, but is occasionally employed in jazz and experimental music.
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image -->
+        
+        <div class="row">
+            <div class="col-md">
+                <div class="row lg-fixed-bottom">
+                    <div class="col-md-2">
+                        <img src="dazzle-line-musical-notes.png" class="img-fluid rounded float-end"
+                            alt="1000_F_190105705_cCO6HZCdwQkOmnBIAuy3QFMVi54dpIlI.jpg">
+                    </div>
+                    <div class="col-md-10 p-4">
+                        <img src="clip-333.png" class="img-fluid rounded float-end" alt="1000_F_190105705_cCO6HZCdwQkOmnBIAuy3QFMVi54dpIlI.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <div class="footer d-flex justify-content-center text-center fixed-bottom mt-5">
+        <p>
+            Made With ❤ by Shail Shah
+        </p>
+    </div>
+
+    <script src="MajorScale.js"></script>
+</body>
+
+</html>
